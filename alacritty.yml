@@ -3,8 +3,8 @@ import:
 window:
   opacity: 0.9
   padding:
-    y: 5
-    x: 5
+    y: 10
+    x: 10
   decorations: none
 font:
   normal:
@@ -14,3 +14,6 @@ alt_send_esc: false
 offset:
   x:10
   y:10
+key_bindings:
+  - { key: V, mods: Control, action: Paste }
+  - { key: C, mods: Control, action: Copy }
