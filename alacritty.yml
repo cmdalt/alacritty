@@ -1,0 +1,16 @@
+import:
+-  ~/.config/alacritty/dracula.yml
+window:
+  opacity: 0.9
+  padding:
+    y: 5
+    x: 5
+  decorations: none
+font:
+  normal:
+    family: "JetBrainsMono Nerd Font"
+  size: 16.0
+alt_send_esc: false
+offset:
+  x:10
+  y:10
