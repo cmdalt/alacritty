@@ -1,15 +1,63 @@
 window:
   opacity: 0.9
+  decorations: none
   padding:
     y: 10
     x: 10
+selection:
+    semantic_escape_chars: '|:"'' {}()[]<>'
+    save_to_clipboard: true
 font:
   normal:
-  family: "JetBrainsMono Nerd Font"
-  size: 16.0
-offset:
-  x:10
-  y:10
+    family: "Fira Code Nerd Font"
+    style: Regular
+  bold:
+    family: "Fira Code Nerd Font"
+    style: Bold
+  italic:
+    family: "Fira Code Nerd Font"
+    style: Italic
+  size: 16.1
 key_bindings:
   - { key: V, mods: Control, action: Paste }
   - { key: C, mods: Control, action: Copy }
+colors:
+  # Default colors
+  primary:
+    foreground: '0xabb2bf'
+    background: '0x282c34'
+
+  # Cursor colors
+  cursor:
+    text: '#212121'
+    cursor: '#6699cc'
+
+  # Selection colors
+  selection:
+    text: CellForeground
+    background: '0x3e4452'
+
+  # Normal colors
+  normal:
+    black:   '0x2c323c'
+    red:     '0xe06c75'
+    green:   '0x98c379'
+    yellow:  '0xe5c07b'
+    blue:    '0x61afef'
+    magenta: '0xc678dd'
+    cyan:    '0x56b6c2'
+    white:   '0x5c6370'
+
+  # Bright colors
+  bright:
+    black:   '0x3e4452'
+    red:     '0xe06c75'
+    green:   '0x98c379'
+    yellow:  '0xe5c07b'
+    blue:    '0x61afef'
+    magenta: '0xc678dd'
+    cyan:    '0x56b6c2'
+    white:   '0xabb2bf'
+bell:
+  duration: 10
+  color: '#626262'
